@@ -1,17 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "ES6",
     "module": "ESNext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "allowJs": true,
-    "moduleResolution": "node",
-    "outDir": "./dist/js",
-    "lib": ["ES5", "DOM"],
-    "noEmitHelpers": true,
-    "importHelpers": true
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*"]
 }

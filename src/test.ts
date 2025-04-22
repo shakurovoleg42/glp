@@ -1,3 +1,3 @@
-export const test = () => {
+function test() {
   console.log("test ts подключен");
-};
+}

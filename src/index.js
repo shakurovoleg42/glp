@@ -1,11 +1,9 @@
-// import { test } from "./test";
-
 document.addEventListener("DOMContentLoaded", () => {
   const nameInput = document.getElementById("name");
   const emailInput = document.getElementById("email");
   const sendBtn = document.getElementById("send-btn");
 
-  // test();
+  test();
 
   sendBtn.addEventListener("click", () => {
     const name = nameInput.value;
