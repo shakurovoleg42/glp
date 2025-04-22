@@ -1,15 +1,17 @@
 {
-    "compilerOptions": {
-      "target": "ES5",
-      "module": "ESNext",
-      "strict": true,
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true,
-      "allowJs": true,
-      "moduleResolution": "node",
-      "outDir": "./dist"
-    },
-    "include": ["src/**/*"]
-  }
-  
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "outDir": "./dist/js",
+    "lib": ["ES5", "DOM"],
+    "noEmitHelpers": true,
+    "importHelpers": true
+  },
+  "include": ["src/**/*"]
+}
